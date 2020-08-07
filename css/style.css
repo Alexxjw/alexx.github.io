@@ -1,3 +1,64 @@
 body{
   background: rgb(236, 236, 171);
+  padding: 0 20px 20px;
+}
+.header{
+  position: relative;
+}
+
+.maim_menu{
+  background: rgb(226, 226, 226);
+  display: block;
+  min-height: 40px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left:0;
+}
+@media only screen and (max-width: 1024px), screen and (max-height: 700px)
+{#regionMain{
+margin-top: 52px;
+transition: margin-top .25s linear;
+}}
+.maim_menu ul li{
+  display: inline-block;
+}
+
+.second{
+  position: relative; left: 20px;
+  padding: 20px;
+}
+.form{
+  display: block;
+  background: rgb(226, 226, 226);
+  width: 100%;
+  max-width: 400px;
+  min-height: 200px;
+  position: relative;
+}
+.btn{
+  padding: 10px 20px;
+  border: 1px solid rgb(88, 88, 82);
+  border-radius: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font: normal 400 18px Verdana;
+}
+.side{
+  width: 60%;
+  padding-right: 20px;
+}
+.sticky{
+  width: 35%;
+  position: sticky;
+  float: right;
+  top:10px;
+  padding-top: 20px;
+}
+.sticky h2{
+  color: blueviolet;
+  border-bottom: solid 1px blueviolet;
 }
